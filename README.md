@@ -26,7 +26,7 @@ Zu Beachten:
 
 - Der Counter auf Ihrer App zählt nur die physischen Knopfdrücke
 - Nach 5 physischen Knopdrücken erfolgt keine Ausgabe mehr
-- Dieser Counter resetet sich um 0 Uhr
+- Dieser Counter resettet sich um 0 Uhr
 - Der Knopfdruck per App wird nicht limitiert
 
 Eine ausführliche Dokumentation des Projektes finden Sie unter: [Wordpress-Süßigkeitenspender](https://wp.uni-oldenburg.de/soft-skills-und-technische-kompetenz-wise20212022-projektgruppe-14/)
