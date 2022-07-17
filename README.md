@@ -10,13 +10,15 @@ Hardware:
 - ESP8255 Wemos 1 Button Shield
 - Netzteil, Micro-USB Kabel
 - Servo 3,0V ~ 7,2V
-- WLAN-Router
-- Micro-USB Kabel
-- Appfähiges Gerät, wie Smartphone/Tablet
 
 Software:
 - Arduino
 - Blynk
+
+Anforderungen:
+- WLAN-Router
+- Micro-USB Kabel
+- Appfähiges Gerät, wie Smartphone/Tablet
 
 Nach installation der Blynk-App muss lediglich der QR-Code des Projektes mit der app gescannt werden und es werden alle Funktionen übernommen. Somit kann nach anschließen des Süßigkeiten-Spenders an einem Netzteil bereits per physischen oder digitalen Knopfdruck die Sußigkeitenausgabe erfolgen.
 
