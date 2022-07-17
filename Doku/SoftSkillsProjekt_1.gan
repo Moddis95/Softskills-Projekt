@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-06-24" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3244" locale="de_DE">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Vorgang" width="200" order="0"/>
+        <field id="tpd4" name="Anfang" width="75" order="1"/>
+        <field id="tpd5" name="Ende" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Ressource" width="210" order="0"/>
+        <field id="1" name="Rolle" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Projektstart" color="#8cb6ce" meeting="true" start="2022-06-09" duration="0" complete="0" thirdDate="2022-07-04" thirdDate-constraint="0" expand="true"/>
+        <task id="1" name="Meeting - Ideensammlung" color="#8cb6ce" meeting="false" start="2022-06-09" duration="5" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true"/>
+        <task id="3" name="Makerspace" color="#8cb6ce" meeting="false" start="2022-06-16" duration="1" complete="0" thirdDate="2022-06-08" thirdDate-constraint="0" expand="true"/>
+        <task id="7" name="Ideenausarbeitung" color="#8cb6ce" meeting="false" start="2022-06-17" duration="3" complete="0" thirdDate="2022-06-08" thirdDate-constraint="0" expand="true"/>
+        <task id="8" name="Meeting - Abstimmung über das Projekt" color="#8cb6ce" meeting="false" start="2022-06-20" duration="1" complete="0" thirdDate="2022-06-10" thirdDate-constraint="0" expand="true"/>
+        <task id="9" name="Projektdokumentation - Motivation" color="#8cb6ce" meeting="false" start="2022-06-20" duration="4" complete="0" thirdDate="2022-06-10" thirdDate-constraint="0" expand="true"/>
+        <task id="10" name="Makerspace" color="#8cb6ce" meeting="false" start="2022-06-23" duration="1" complete="0" thirdDate="2022-06-10" thirdDate-constraint="0" expand="true"/>
+        <task id="11" name="Makerspace - Fertigstellung der Holzbox" color="#8cb6ce" meeting="true" start="2022-06-24" duration="0" complete="0" thirdDate="2022-06-09" thirdDate-constraint="0" expand="true"/>
+        <task id="12" name="Projektdokumentation - Anforderungskatalog" color="#8cb6ce" meeting="false" start="2022-06-23" duration="3" complete="0" thirdDate="2022-06-09" thirdDate-constraint="0" expand="true"/>
+        <task id="13" name="Projektdokumentation - Projektplan" color="#8cb6ce" meeting="false" start="2022-06-23" duration="3" complete="0" thirdDate="2022-06-09" thirdDate-constraint="0" expand="true"/>
+        <task id="14" name="Meeting" color="#8cb6ce" meeting="false" start="2022-06-25" duration="1" complete="0" thirdDate="2022-06-09" thirdDate-constraint="0" expand="true"/>
+        <task id="15" name="Projektdokumentation - Beschreibung der Software-Entwicklung" color="#8cb6ce" meeting="false" start="2022-06-26" duration="3" complete="0" thirdDate="2022-06-09" thirdDate-constraint="0" expand="true"/>
+        <task id="16" name="Projektdokumentation - Beschreibung der Holzkonstruktion" color="#8cb6ce" meeting="false" start="2022-06-26" duration="3" complete="0" thirdDate="2022-06-09" thirdDate-constraint="0" expand="true"/>
+        <task id="17" name="Makerspace" color="#8cb6ce" meeting="false" start="2022-06-28" duration="1" complete="0" thirdDate="2022-06-09" thirdDate-constraint="0" expand="true"/>
+        <task id="18" name="Makerspace" color="#8cb6ce" meeting="false" start="2022-07-01" duration="1" complete="0" thirdDate="2022-06-09" thirdDate-constraint="0" expand="true"/>
+        <task id="19" name="Projekdokumentaion - Beschreibung der Hardware" color="#8cb6ce" meeting="false" start="2022-07-01" duration="4" complete="0" thirdDate="2022-06-09" thirdDate-constraint="0" expand="true"/>
+        <task id="20" name="Makerspace" color="#8cb6ce" meeting="false" start="2022-07-04" duration="1" complete="0" thirdDate="2022-06-09" thirdDate-constraint="0" expand="true"/>
+        <task id="21" name="Makerspace" color="#8cb6ce" meeting="false" start="2022-07-05" duration="1" complete="0" thirdDate="2022-06-09" thirdDate-constraint="0" expand="true"/>
+        <task id="22" name="Meeting" color="#8cb6ce" meeting="false" start="2022-07-08" duration="1" complete="0" thirdDate="2022-06-09" thirdDate-constraint="0" expand="true"/>
+        <task id="23" name="Fertigstellung der Software" color="#8cb6ce" meeting="true" start="2022-07-10" duration="0" complete="0" thirdDate="2022-06-09" thirdDate-constraint="0" expand="true"/>
+        <task id="24" name="Meeting" color="#8cb6ce" meeting="false" start="2022-07-10" duration="1" complete="0" thirdDate="2022-06-09" thirdDate-constraint="0" expand="true"/>
+        <task id="25" name="Projekdokumentation - Beschreibung der Systemarchitektur und Schnittstellen" color="#8cb6ce" meeting="false" start="2022-07-11" duration="3" complete="0" thirdDate="2022-06-09" thirdDate-constraint="0" expand="true"/>
+        <task id="26" name="Makerspace - Montage des Süßigkeitenspenders" color="#8cb6ce" meeting="true" start="2022-07-11" duration="0" complete="0" thirdDate="2022-06-09" thirdDate-constraint="0" expand="true"/>
+        <task id="27" name="Projektdokumentation - Nutzerhandbuch" color="#8cb6ce" meeting="false" start="2022-07-13" duration="4" complete="0" thirdDate="2022-06-24" thirdDate-constraint="0" expand="true"/>
+        <task id="28" name="Fertigstellung des Süßigkeitenspenders" color="#8cb6ce" meeting="true" start="2022-07-15" duration="0" complete="0" thirdDate="2022-06-24" thirdDate-constraint="0" expand="true"/>
+        <task id="29" name="Präsentation erstellen" color="#8cb6ce" meeting="false" start="2022-07-15" duration="3" complete="0" thirdDate="2022-06-24" thirdDate-constraint="0" expand="true"/>
+        <task id="30" name="Unterlagen abgeben" color="#8cb6ce" meeting="false" start="2022-07-19" duration="1" complete="0" thirdDate="2022-06-24" thirdDate-constraint="0" expand="true"/>
+        <task id="31" name="Projektabschluss" color="#8cb6ce" meeting="true" start="2022-07-20" duration="0" complete="0" thirdDate="2022-06-24" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
