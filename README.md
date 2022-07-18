@@ -20,7 +20,7 @@ Anforderungen:
 - Micro-USB Kabel
 - Appfähiges Gerät, wie Smartphone/Tablet
 
-Nach Installation der Blynk-App muss lediglich der QR-Code des Projektes mit der App gescannt werden und es werden alle Funktionen übernommen. Somit kann nach erfolgreichem Anschließen des Süßigkeiten-Spenders an ein Netzteil bereits per physischen oder digitalen Knopfdruck die Sußigkeiten-Ausgabe erfolgen.
+Nach Installation der Blynk-App muss lediglich die Konfiguration der Widgets inklusive der Virtuellen Pins vorgenommen werden. Somit kann nach erfolgreichem Anschließen des Süßigkeiten-Spenders an ein Netzteil bereits per physischen oder digitalen Knopfdruck die Sußigkeiten-Ausgabe erfolgen.
 
 Zu Beachten:
 
