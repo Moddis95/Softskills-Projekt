@@ -1,7 +1,7 @@
 //>>>>>>>>>>>>>>>>>>>Definieren für Blynk und Pins<<<<<<<<<<<<<<<<<<<<<<<
-#define BLYNK_TEMPLATE_ID "TMPLILL0zvGV"
+#define BLYNK_TEMPLATE_ID ""
 #define BLYNK_DEVICE_NAME "Süßigkeitenbox"
-#define BLYNK_AUTH_TOKEN "lSmmQXi7QHBQdrdSSsgNGdX-pX5YLpHe"
+#define BLYNK_AUTH_TOKEN ""
 #define BLYNK_PRINT Serial
 #define servoPin D4 
 #define pushButtonPin D3
@@ -17,8 +17,8 @@ Servo myservo;                            // Erstellen eines Servoobjekts
 
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>Variablen, Konstante<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 char auth[] = BLYNK_AUTH_TOKEN;           // Eingabe der Blynk und WIFI Daten 
-char ssid[] = "Fischer";                  // SSID des Routers eingeben
-char pass[] = "77759504838540776417";     // Passwort des Routers eingeben
+char ssid[] = "";                  // SSID des Routers eingeben
+char pass[] = "";     // Passwort des Routers eingeben
 
 int angle =90;                            // Uhrspungs Startgrad des Servos (zwischen 1 und 179)
 int angleStep =10;                        // in 10er Schritten
